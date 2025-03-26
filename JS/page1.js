@@ -8,7 +8,7 @@ function submitting ()
 {  
     if (username2.value.toLowerCase() === 'cupcake')
     {
-        window.location.href = 'page0.html'
+        window.location.href = 'page2.html'
     }
     else
     {
