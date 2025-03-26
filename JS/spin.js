@@ -1,5 +1,6 @@
 const wheel = document.getElementById('wheel');
 const spinBtn = document.getElementById('spinBtn');
+const goNext = document.getElementById('goNext');
 
 spinBtn.addEventListener('click', spinWheel);
 
@@ -12,4 +13,10 @@ function spinWheel() {
     setTimeout(() => {
         wheel.textContent = `${randomPercentage}%`;
     }, 4000); 
+}
+
+goNext.addEventListener('click', gofinal);
+function gofinal ()
+{
+    window.location.href = 'page3.html'
 }

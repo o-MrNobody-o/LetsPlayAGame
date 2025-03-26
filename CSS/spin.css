@@ -29,7 +29,7 @@ h1 {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-#spinBtn {
+.spinBtnc {
     display: block;
     margin: 20px auto;
     padding: 12px 24px;
@@ -42,6 +42,6 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-#spinBtn:hover {
+.spinBtnc:hover {
     background-color: #7a0d88;
 }
